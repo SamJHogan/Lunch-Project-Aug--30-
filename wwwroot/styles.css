@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+}
+nav{
+    background-color: gray;
+    color: black;
+}
+nav-link:hover{
+    background-color: #4A4646;
+    color: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+}
