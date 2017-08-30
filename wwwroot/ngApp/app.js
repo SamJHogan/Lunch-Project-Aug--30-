@@ -1,5 +1,6 @@
 var myApp = angular.module("myApp", ['ui.router', 'ngResource', 'ui.bootstrap']);
 myApp.controller("MainController", MainController);
+myApp.controller("InventoryController", InventoryController);
 myApp.service("$productService", ProductService);
 
 myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -8,6 +9,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             url: '/',
             templateUrl: '/ngApp/views/main.html',
             controller: MainController,
+            controllerAs: 'controller'
+        }) .state('inventory', {
+            url: '/inventory',
+            templateUrl: '/ngApp/views/inventory.html',
+            controller: InventoryController,
             controllerAs: 'controller'
         });
 
