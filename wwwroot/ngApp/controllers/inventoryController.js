@@ -9,12 +9,20 @@ class InventoryController {
             {Year:2017, Make:"Toyota", Model:"Camry", Price:18763},
             {Year:2017, Make:"Nissan", Model:"Altima", Price:19503}]; 
 
-        this.getInventory()
+        this.getInventory();
+        this.withTax();
     }
     getInventory() {
         return this.cars;     
                 
     }
+    withTax()
+    {
+      for(let i=0;i<this.cars.length;i++){
+        this.cars[i].Price = this.cars[i].Price + (this.cars[i].Price * 0.08);
+      }
+    }
+    
     myFunction() {
         // Declare variables 
         var input, filter, table, tr, td, i;
