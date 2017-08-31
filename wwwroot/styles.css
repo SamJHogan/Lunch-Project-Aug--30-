@@ -1,13 +1,17 @@
+body{
+    background-color: white;
+}
+
 li{
     list-style: none;
 }
 nav{
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: gray;
 }
 nav-link:hover{
     background-color: #4A4646;
-    color: blue;
+    color: white;
 }
 footer{
     background-color: black;
