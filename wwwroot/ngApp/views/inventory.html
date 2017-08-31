@@ -8,7 +8,7 @@
 
   <h1>Inventory</h1>
 
-  <table>
+  <table class="table">
       <tr>
           <th>Year</th>
           <th>Make</th>
@@ -17,10 +17,10 @@
       </tr>
 
       <tr ng-repeat="car in controller.cars">
-          <td> {{cars.Year}} </td>
-          <td> {{cars.Make}} </td>
-          <td> {{cars.Model}} </td>
-          <td> {{cars.Price}} </td>
+          <td> {{car.Year}} </td>
+          <td> {{car.Make}} </td>
+          <td> {{car.Model}} </td>
+          <td> {{car.Price | currency}} </td>
       </tr>
 
   </table>
@@ -29,4 +29,7 @@
 <p>{{ message }}</p>
 
 </body>
-</html>
+</html> 
+
+<!-- <p>{{ controller.message }}</p>
+<div ng-repeat = "car in cars">{{controller.cars}}</div> -->

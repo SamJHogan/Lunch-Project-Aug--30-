@@ -1,5 +1,5 @@
 class AboutController {
     constructor() {
-        this.message = "hello from About";
+        this.message = "What to hear more about us...";
     }
 }
