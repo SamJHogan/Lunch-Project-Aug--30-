@@ -13,3 +13,26 @@ footer{
     background-color: black;
     color: white;
 }
+.heading-about{
+    background-color: #5353FB;
+    color: black;
+}
+.header-contact{
+    background-color: #0F0FED;
+    color: white;
+}
+.about{
+    color: #3F3C3C;
+}
+input{
+    background-color: #2BA2D4;
+}
+textarea{
+    background-color: #2BA2D4;
+}
+input:hover{
+    background-color: #A2D5EA;
+}
+textarea:hover{
+    background-color: #A2D5EA;
+}
