@@ -1,14 +1,32 @@
-<!-- <!DOCTYPE html>
-<html>
-<body>
+<!DOCTYPE html>
+<html>  
+<head>      
+        <link rel="stylesheet" href="style.css">    
+</head>   
+<body class="dealership-inventory">
 
 
   <h1>Inventory</h1>
 
-  <div>{{controller.cars.Year}}</div>
-  
+  <table>
+      <tr>
+          <th>Year</th>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Price</th>
+      </tr>
 
-<p>{{ controller.message }}</p>
+      <tr ng-repeat="car in controller.cars">
+          <td> {{cars.Year}} </td>
+          <td> {{cars.Make}} </td>
+          <td> {{cars.Model}} </td>
+          <td> {{cars.Price}} </td>
+      </tr>
+
+  </table>
+
+
+<p>{{ message }}</p>
 
 </body>
 </html> -->
