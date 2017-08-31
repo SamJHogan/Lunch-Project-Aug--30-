@@ -1,13 +1,44 @@
+
+.color-main{
+    background-color: #7979F4;
+    color: black;  
+    
+}
+.color-home{
+    background-color: #1F1FEE;
+}
+.welcome{
+    border: 3px solid black;
+    text-align: center;
+    color: black;
+    margin:10px;
+    margin-bottom: 50px
+    padding:10px;
+}
+.look{
+    color: black;
+    text-align: center;    
+}
+.video{
+    margin: 30px 0;
+}
+
 body{
     background-color: white;
 }
+
 
 li{
     list-style: none;
 }
 nav{
+
+    background-color: #4242F0;
+    color: black;
+
     background-color: black;
     color: gray;
+
 }
 nav-link:hover{
     background-color: #4A4646;
